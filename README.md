@@ -18,15 +18,19 @@ oc login -u admin -p admin
 ```
 
 ## Run the KubeVirt APB
+
+### Open the Console
 Open the console UI in your browser located at: ```https://<my_ip>:8443/console```
 and you should see the Service-Catalog UI.
+
 ![Service Catlog UI](service-catalog-ui.png)
 
-#### Select the KubeVirt Icon
+### Select the KubeVirt Icon
 This is the KubeVirt APB
+
 ![KubeVirt APB Info](kubevirt-apb-info.png)
 
-#### Configure and Create the KubeVirt APB
+### Configure and Create the KubeVirt APB
 Fill out the fields to run the APB:
   - Add to Project: "The project the serviceinstance will run in"
   - OpenShift Admin User: "Admin user"
@@ -34,6 +38,7 @@ Fill out the fields to run the APB:
   - Version: "KubeVirt version"
   - Registry URL: "Container registry to pull the Kubevirt Images"
   - Registry Namespace: "Namespace to launch KubeVirt pods"
+
 ![Configure the KubeVirt APB](configured-kubevirt-apb.png)
 
 ![Create the KubeVirt APB](create-kubevirt-apb.png)
