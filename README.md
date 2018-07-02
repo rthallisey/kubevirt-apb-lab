@@ -26,12 +26,13 @@ and you should see the Service-Catalog UI.
 ![Service Catlog UI](service-catalog-ui.png)
 
 ### Select the KubeVirt Icon
-This is the KubeVirt APB
+This will bring up the information tab on KubeVirt.  Select ```Next``` to begin
+configuration.
 
 ![KubeVirt APB Info](kubevirt-apb-info.png)
 
 ### Configure and Create the KubeVirt APB
-Fill out the fields to run the APB:
+Fill in all the fields to run the APB:
   - Add to Project: "The project the serviceinstance will run in"
   - OpenShift Admin User: "Admin user"
   - OpebShift Admin Password: "Password for the admin user"
